@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --radius-sm: 0.5rem;
+  --radius-md: 0.85rem;
+  --radius-lg: 1.25rem;
+  --radius-xl: 1.75rem;
+  --shadow-soft: 0 12px 30px -20px rgba(31, 31, 28, 0.35);
+  --shadow-card: 0 18px 40px -28px rgba(31, 31, 28, 0.45);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #f7f2e9;
+  color: #1f1f1c;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
