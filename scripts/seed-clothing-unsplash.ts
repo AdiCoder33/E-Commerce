@@ -287,8 +287,8 @@ async function main() {
         source: 'unsplash',
         photos: images.map((image) => ({
           name: image.user.name,
-          profile: `${image.user.links.html}?utm_source=aaranya_app&utm_medium=referral`,
-          link: `${image.links.html}?utm_source=aaranya_app&utm_medium=referral`,
+          profile: `${image.user.links.html}?utm_source=adis_brand&utm_medium=referral`,
+          link: `${image.links.html}?utm_source=adis_brand&utm_medium=referral`,
           image: image.urls.regular
         }))
       };

@@ -131,7 +131,7 @@ export default function PaymentButton({
           amount: createData.amount,
           currency: createData.currency,
           order_id: createData.providerOrderId,
-          name: 'Aaranya Apparel',
+          name: "Adi's Brand",
           description: `Order ${orderId}`,
           handler: async (response: {
             razorpay_order_id: string;

@@ -16,7 +16,7 @@ const body = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: 'Aaranya Apparel',
+  title: "Adi's Brand",
   description: 'A modern clothing storefront powered by Supabase.'
 };
 

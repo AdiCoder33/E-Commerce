@@ -145,7 +145,7 @@ export default function Header({ categories, userEmail, storeName }: HeaderProps
         </button>
 
         <Link href="/" className="font-display text-lg font-semibold tracking-tight">
-          {storeName || 'Aaranya Apparel'}
+          {storeName || "Adi's Brand"}
         </Link>
 
         <div className="hidden items-center gap-6 lg:flex">
@@ -230,7 +230,7 @@ export default function Header({ categories, userEmail, storeName }: HeaderProps
         <div className="flex h-full flex-col">
           <div className="flex items-center justify-between border-b border-black/10 px-6 py-5">
             <p className="font-display text-lg font-semibold">
-              {storeName || 'Aaranya Apparel'}
+              {storeName || "Adi's Brand"}
             </p>
             <button
               type="button"

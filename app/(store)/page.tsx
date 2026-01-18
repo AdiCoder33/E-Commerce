@@ -85,7 +85,7 @@ export default async function HomePage() {
           <div className="space-y-5">
             <p className="text-xs uppercase tracking-[0.2em] text-black/50">New season</p>
             <h1 className="font-display text-4xl font-semibold tracking-tight md:text-5xl">
-              {settings?.store_name || 'Aaranya Apparel'}
+              {settings?.store_name || "Adi's Brand"}
             </h1>
             <p className="text-lg text-black/70">
               {settings?.tagline || 'Modern essentials rooted in Indian craft.'}
@@ -212,7 +212,7 @@ export default async function HomePage() {
                 aboutLines.map((line) => <p key={line}>{line}</p>)
               ) : (
                 <p>
-                  Aaranya Apparel blends contemporary silhouettes with heritage textiles,
+                  Adi's Brand blends contemporary silhouettes with heritage textiles,
                   creating versatile pieces that move with you.
                 </p>
               )}

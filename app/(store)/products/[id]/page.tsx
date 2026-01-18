@@ -98,7 +98,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
           <div>
             <p className="text-xs uppercase tracking-[0.2em] text-black/50">Product</p>
             <h1 className="font-display text-3xl font-semibold">{product.title}</h1>
-            <p className="mt-2 text-sm text-black/60">Modern essentials by Aaranya Apparel.</p>
+            <p className="mt-2 text-sm text-black/60">Modern essentials by Adi's Brand.</p>
           </div>
           <p className="text-lg font-semibold">
             {formatCurrency(product.price_amount, product.currency)}

@@ -12,11 +12,11 @@ create index if not exists products_tags_idx on public.products using gin (tags)
 
 create table if not exists public.site_settings (
   id boolean primary key default true,
-  store_name text not null default 'Aaranya Apparel',
+  store_name text not null default 'Adi''s Brand',
   tagline text not null default 'Modern essentials rooted in Indian craft.',
   announcement text not null default 'Free shipping above INR 1999 - COD available - Easy returns',
-  about_md text not null default 'Aaranya Apparel curates everyday silhouettes for modern wardrobes, balancing comfort, craft, and timeless palettes.',
-  support_email text not null default 'support@aaranya.test',
+  about_md text not null default 'Adi''s Brand curates everyday silhouettes for modern wardrobes, balancing comfort, craft, and timeless palettes.',
+  support_email text not null default 'support@adisbrand.test',
   support_phone text not null default '+91 90000 00000',
   created_at timestamptz not null default now(),
   updated_at timestamptz not null default now()

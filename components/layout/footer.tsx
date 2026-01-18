@@ -21,7 +21,7 @@ export default function Footer({ categories, settings }: FooterProps) {
   const about =
     settings?.about_md?.split('\n').find((line) => line.trim().length > 0) ||
     'A modern clothing studio focused on comfort, craftsmanship, and everyday style.';
-  const storeName = settings?.store_name || 'Aaranya Apparel';
+  const storeName = settings?.store_name || "Adi's Brand";
 
   return (
     <footer className="border-t border-black/10 bg-paper">
@@ -66,14 +66,14 @@ export default function Footer({ categories, settings }: FooterProps) {
             <Link href="/dashboard" className="hover:text-ink">
               Account & profile
             </Link>
-            <span className="text-black/50">{settings?.support_email || 'support@aaranya.test'}</span>
+            <span className="text-black/50">{settings?.support_email || 'support@adisbrand.test'}</span>
             <span className="text-black/50">{settings?.support_phone || '+91 90000 00000'}</span>
           </div>
         </div>
       </div>
       <div className="border-t border-black/10">
         <div className="container flex flex-wrap items-center justify-between gap-3 py-4 text-xs text-black/50">
-          <span>2026 Aaranya Apparel. All rights reserved.</span>
+          <span>2026 Adi's Brand. All rights reserved.</span>
           <span>Secure payments - Fast shipping - Easy returns</span>
         </div>
       </div>

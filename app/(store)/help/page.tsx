@@ -70,7 +70,7 @@ export default async function HelpPage() {
           <Card className="p-6">
             <p className="text-xs uppercase tracking-[0.2em] text-black/50">Contact</p>
             <div className="mt-4 space-y-2 text-sm text-black/60">
-              <p>Email: {settings?.support_email || 'support@aaranya.test'}</p>
+              <p>Email: {settings?.support_email || 'support@adisbrand.test'}</p>
               <p>Phone: {settings?.support_phone || '+91 90000 00000'}</p>
               <p>Mon-Sat, 9am-6pm IST</p>
             </div>
